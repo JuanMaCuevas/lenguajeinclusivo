@@ -1,0 +1,25 @@
+{
+  "name": "lenguajeinclusivo",
+  "version": "1.0.0",
+  "description": "Librería para lenguaje inclusivo o no sexista",
+  "author": "Javier Campos",
+  "license": "MIT",
+  "repository": "javichur/lenguaje-inclusivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./cli.js"
+  },
+  "keywords": [
+    "lenguaje",
+    "inclusivo",
+    "sexista",
+    "género",
+    "neutro",
+    "feminismo",
+    "castellano"
+  ],
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
