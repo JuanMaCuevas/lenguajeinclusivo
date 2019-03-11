@@ -1,10 +1,10 @@
 {
   "name": "lenguajeinclusivo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Librería para lenguaje inclusivo o no sexista",
   "author": "Javier Campos",
   "license": "MIT",
-  "repository": "javichur/lenguaje-inclusivo",
+  "repository": "javichur/lenguajeinclusivo",
   "main": "index.js",
   "scripts": {
     "test": "mocha",

@@ -1,19 +1,24 @@
-# lenguaje-inclusivo
+# lenguajeinclusivo
 
-[![Build Status](https://travis-ci.org/javichur/lenguaje-inclusivo.svg?branch=master)](https://travis-ci.org/javichur/lenguaje-inclusivo) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/javichur/lenguaje-inclusivo/issues)
+[![Build Status](https://travis-ci.org/javichur/lenguajeinclusivo.svg?branch=master)](https://travis-ci.org/javichur/lenguajeinclusivo) [![NPM Version](https://img.shields.io/npm/v/lenguajeinclusivo.svg?style=flat)](https://npmjs.org/package/lenguajeinclusivo) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/javichur/lenguajeinclusivo/issues)
 
 Traductor a lenguaje inclusivo / no sexista. Prueba de concepto.
 
 ## Uso
+
 Prueba rápida:
+
 ```javascript
 npm start <frase que quieras traducir>
 ```
+
 Integrado en tu proyecto de Node:
+
 ```javascript
 const li = require('../lib');
 let respuesta = li.textoAlt("los profesores hablaron con el resto de los trabajadores y después recomendaron los libros de los escritores");
 ```
+
 Genera la salida: `el profesorado habló con el resto del personal y después recomendaron los libros de los escritores y las escritoras`.
 
 ## Mejora del diccionario
